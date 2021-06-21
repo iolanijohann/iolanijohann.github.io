@@ -26,12 +26,12 @@ img {
     padding: 1em 2em;
     text-decoration: none;
     background-color: rgba(0, 102, 204, .8);
-    color: white;
+    color: blueviolet;
     border-radius: 5px;
 }
 .button:hover {
     background-color: rgba(0, 102, 204, 1);
-    color: white;
+    color: purple;
 }
 .button.dark {
     color: rgba(0, 102, 204, 1);
