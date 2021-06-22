@@ -4,7 +4,7 @@ body { margin: 0; }
 
 /* GLOBAL COLORS */
 body { color: rgba(0, 0, 0, 0.8); }
-a { color: rgba(0, 102, 204, 1); }
+a { color: rgb(198, 80, 228); }
 a:hover { color: rgba(0, 51, 153, 1); }
 
 /* GLOBAL TYPOGRAPHY */
@@ -25,27 +25,27 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    background-color: rgba(65, 0, 119, 0.8);
-    color: blueviolet;
+    background-color: rgba(55, 255, 138, 0.8);
+    color: rgb(155, 27, 155);
     border-radius: 5px;
 }
 .button:hover {
     background-color: rgb(189, 23, 223);
-    color: purple;
+    color: rgb(87, 16, 87);
 }
 .button.dark {
-    color: rgba(0, 102, 204, 1);
-    background-color: rgba(212, 30, 30, 0.8);
+    color: rgb(209, 72, 202);
+    background-color: rgba(152, 255, 224, 0.8);
 }
 .button.dark:hover {
-    background-color: rgb(212, 30, 30);
+    background-color: rgb(83, 219, 90);
 }
 
 /* SITE STRUCTURE */
 
 header {
-    background-color: rgba(0, 102, 204, 1);
-    color: rgba(0, 0, 0, 0.8); 
+    background-color: rgb(150, 45, 211);
+    color: rgba(77, 19, 170, 0.8); 
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -53,12 +53,12 @@ header {
 }
 
 header a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(21, 255, 118, 0.8);
     text-decoration: none;
 }
 
 header a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(246, 148, 255);
 }
 
 
@@ -83,14 +83,14 @@ header a:hover {
 
 /* MAIN */
 main {
-    background: rgba(0,0,0,.05);
+    background: rgb(86, 255, 8);
 }
 
 /* HERO SECTION */
 .hero {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(72, 255, 81);
     text-align: center;
-    color: white;
+    color: rgb(176, 0, 192);
     padding: 6em 1em;
 }
 
@@ -128,7 +128,7 @@ main {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid rgba(0,0,0,.05);
+    border-top: 1px solid rgba(21, 255, 0, 0.05);
     padding: 1em;
 }
 
@@ -175,7 +175,7 @@ aside {
 
 /* SUB PAGES */
 .page-sub .hero {
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color:rgb(226, 108, 255);
     color: rgba(0, 0, 0, 0.8);
 }
 
