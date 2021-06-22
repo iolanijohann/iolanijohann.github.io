@@ -25,20 +25,20 @@ img {
     display: inline-block;
     padding: 1em 2em;
     text-decoration: none;
-    background-color: rgba(0, 102, 204, .8);
+    background-color: rgba(65, 0, 119, 0.8);
     color: blueviolet;
     border-radius: 5px;
 }
 .button:hover {
-    background-color: rgba(0, 102, 204, 1);
+    background-color: rgb(189, 23, 223);
     color: purple;
 }
 .button.dark {
     color: rgba(0, 102, 204, 1);
-    background-color: rgba(255, 255, 255,.8);
+    background-color: rgba(212, 30, 30, 0.8);
 }
 .button.dark:hover {
-    background-color: rgba(255, 255, 255,1);
+    background-color: rgb(212, 30, 30);
 }
 
 /* SITE STRUCTURE */
